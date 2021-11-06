@@ -34,17 +34,22 @@ body{
     color:#E1A87A ;
     margin-right: 50%;
     margin-left: 10%;
+    transition: .5s;
+}
+
+.logo:hover{
+    color:yellow;
 }
 .logo h1{
     font-size: 50px;
     font-weight: 900;
 }
 .navbar-links{
-    margin-left: 5rem;
+    margin-left: 2rem;
     font-size: 1.5rem;
     text-decoration: none;
     color: white;
-    transition: 0.4s;
+    transition: 0.5s;
     padding: .1em .5em;
 }
 
