@@ -1,6 +1,6 @@
 import Layout from '../components/Layout'
 import Image from "next/image"
-import jeanprofile from "../public/images/jean-about.JPG"
+import jeanprofile from "../public/images/jean-about.jpg"
 
 export default function about() {
   return (
