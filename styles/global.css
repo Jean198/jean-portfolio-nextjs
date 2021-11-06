@@ -1,0 +1,266 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap );
+
+
+body{
+    background-color: #1F2937;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.horizontal-line{
+    width:50%;
+}
+
+.layout{
+    max-width: 80rem;
+    margin: 0 auto;
+    
+    padding: 20px;
+
+}
+
+/*Navbar styles-----------------------------------------------------------*/
+.navbar{
+    
+    padding: 0 20px;
+    
+    
+}
+
+.logo{
+    display: inline-block;
+    text-decoration: none;
+    color:#E1A87A ;
+    margin-right: 50%;
+    margin-left: 10%;
+}
+.logo h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.navbar-links{
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+    padding: .1em .5em;
+}
+
+.navbar-links:hover{
+    color: yellowgreen;
+    border-top: solid yellow 1px;
+    border-bottom: solid yellow 1px;
+}
+
+/* WelcomeSection----------------------------------------------------------*/
+.welcome-section{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 100px;
+    padding: 10px 20px;
+}
+.image-div{
+    display: inline-block;
+    width:250px;
+    height:250;
+    
+    
+}
+.image-div img{
+    border-radius: 3%;
+}
+
+
+
+.introduction-div{
+    display: inline-block;
+    margin-left: 5%;
+    
+}
+
+.introduction-div h2{
+    font-size: 3rem;
+}
+
+.introduction-div p{
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 2rem;
+
+}
+
+.underline{
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+/*ProjectSection----------------------------------------------------------*/
+.projects-section{
+    margin-top: 100px;
+}
+.projects-title{
+  font-size: 30px;
+  text-align: center;
+  color:yellowgreen;
+  margin-top: 100px;
+}
+
+.projectboxes-container{
+    
+    padding: 20px;
+    text-align: center;
+    
+   
+    
+}
+
+.projectboxes-container p{
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 2rem;
+}
+.projects-title h2{
+    font-size: 3rem;
+    
+}
+
+.project-box{
+    margin:10px;
+    display: inline-block;
+    width:40%;
+    padding: 10px;
+    border: solid 1px gray;
+    border-radius: 3px;
+    
+}
+
+
+/*Footer------------------------------------------------------------------*/
+.footer{
+
+    margin-top: 100px;
+    
+    padding:0 20px;
+    background-color: black;
+    
+}
+
+
+
+.footer-elem{
+    display: inline-block;
+    margin-left: 30px;
+    
+    width: 30%;
+    text-align: center;
+    
+}
+
+.footer-icons{
+    margin-left:30px;
+    text-decoration: none;
+    
+    
+}
+
+.text-2xl{
+    color:#E1A87A;
+    font-size: 20px;
+}
+
+/*Contact Form-----------------------------------------------*/
+
+.inputGroup {
+    height: 50%;
+    width: 200%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  .inputLabel {
+    text-align: left;
+  }
+  .inputField {
+    height: 30px;
+  }
+
+
+  /* Form------------------------------------------------------------------------------------*/
+
+  .form-container{
+      margin-top: 100px;
+      padding: 20px;
+  }
+
+  .form{
+      
+      border: solid 1px gray;
+      width: 70%;
+      margin:0 auto;
+      padding: 40px;
+  }
+
+  .input{
+      margin-top:10px;
+      width: 38rem;
+  }
+
+  .message{
+      width:38rem;
+  }
+  .submit{
+      font-weight: 800;
+      background-color: #E1A87A;
+      color:white;
+      padding: .8em 2em;
+      border: 0;
+      border-radius: .2em;
+  }
+
+  .submit:hover{
+      background-color: black;
+      border: solid gray 1px;
+  }
+
+
+
+/*-about---------------------------------------------------------*/
+.about-container{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.about-image-div{
+    
+    width:250px;
+    height:250;
+    
+
+}
+
+.about-image-div img{
+    border-radius: 50%;
+}
+
+.about-para-container{
+    max-width: 70%;
+    
+}
+.about-para-container h1{
+
+    color: yellowgreen
+
+}
+.about-para-container p{
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+
+
