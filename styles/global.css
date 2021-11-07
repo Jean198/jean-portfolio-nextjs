@@ -248,7 +248,7 @@ body{
   /* Form------------------------------------------------------------------------------------*/
 
   .form-container{
-      width: 60%;
+      width: 100%;
       margin: 0 auto;
       margin-top: 100px;
       padding: 1em;
@@ -260,7 +260,7 @@ body{
   .form{
       
       border: solid 1px lightslategray;
-      width: 100%;
+      width: 50%;
       margin:0 auto;
       padding:10px 35px;
       
@@ -269,11 +269,11 @@ body{
 
   .input{
       margin-top:10px;
-      width: 70%;
+      width: 100%;
   }
 
   .message{
-      width:70%;
+      width:100%;
   }
   .submit{
       font-weight: 800;
