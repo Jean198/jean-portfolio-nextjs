@@ -5,6 +5,7 @@ import emailjs from 'emailjs-com'
 
 
 
+
 const Result=() =>{
   return(
     <p>Your message has been sent!</p>

@@ -13,7 +13,7 @@ export default function about() {
 
             </div>
             <div className="about-para-container">
-              <h1>About</h1>
+              <h1>About Me</h1>
               <p>
                 
                   Hi there! <br />
