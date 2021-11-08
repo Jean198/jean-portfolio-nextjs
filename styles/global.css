@@ -253,6 +253,15 @@ body{
     font-size: 20px;
 }
 
+.text-2xl:hover{
+    color:#9ACD32;
+}
+
+.footer-logo{
+    font-weight: 800;
+    color:#E1A87A;
+}
+
 
 @media screen and (max-width: 1500px){
     .footer-elem{
@@ -308,8 +317,8 @@ body{
   .submit{
       width: 100%;
       font-weight: 800;
-      background-color: #E1A87A;
-      color:white;
+      background-color: #9ACD32;
+      color:black;
       padding: .8em 2em;
       border: 0;
       border-radius: .2em;
@@ -318,6 +327,7 @@ body{
   .submit:hover{
       background-color: black;
       border: solid gray 1px;
+      color:white
   }
 
   @media screen and (max-width: 950px){
@@ -340,11 +350,12 @@ body{
 /*-about---------------------------------------------------------*/
 .about-container{
     display: flex;
-    padding: 30px;
+    padding: ;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 100px;
+    
 }
 
 .about-image-div{
@@ -355,17 +366,20 @@ body{
     
     
     
+    
 
 }
 
 .about-image-div img{
     
-    border-radius: 50%;
+    border-radius: 5%;
     
 }
 
 .about-para-container{
     max-width: 70%;
+    
+    text-align: center;
     
     
 }
@@ -379,6 +393,14 @@ body{
     line-height: 2.5rem;
 }
 
+
+@media screen and (max-width: 950px){
+
+    .about-para-container{
+       max-width: 100%;
+    }
+
+}
 
 
 

@@ -8,7 +8,7 @@ export default function Footer() {
                 2021 Jean Niyigaba - All rights reserved
             </p>
         </div>
-        <div className="footer-elem">
+        <div className="footer-elem footer-logo">
             <p>JN</p>
         </div>
         <div className="footer-elem">
