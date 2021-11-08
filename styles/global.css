@@ -13,7 +13,7 @@ body{
 
 
 .horizontal-line{ 
-    width:70%;
+    width:50%;
     margin: 0 auto;
     color: lightslategray;
 }
@@ -28,7 +28,7 @@ body{
 
 /*Navbar styles-----------------------------------------------------------*/
 .navbar{
-    width: 80%;
+    width: 60%;
     overflow: hidden;
     
     margin: 0 auto;
@@ -155,9 +155,10 @@ body{
 
 .projectboxes-container{
     text-align: center;
-    width: 99%;
+    width: 60%;
     margin: 0 auto;
-    
+    display: flex;
+    flex-wrap: wrap;
     overflow: fit-content;
 }
 
@@ -174,21 +175,31 @@ body{
 
 .project-box{
     margin: 0 auto;
-    margin-left: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
     display: inline-block;
     width:40%;
     padding: 3em;
     border: solid 1px lightslategray;
     border-radius: 3px;
+    transition: 0.3s;
     
     
+    
+}
+
+.project-box:hover{
+  opacity: .4;
 }
 
 .project-box p{
     text-align: center;
 }
 
+
+.span a{
+   text-decoration: none;
+   color: yellowgreen
+}
 
 @media screen and (max-width: 1500px){
     .project-box{
@@ -353,5 +364,8 @@ body{
     font-size: 1.2rem;
     line-height: 2.5rem;
 }
+
+
+
 
 
