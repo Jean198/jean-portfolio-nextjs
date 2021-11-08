@@ -19,7 +19,7 @@ export default function NavBar() {
 
                         
 
-                        <div class="nav-links-div">
+                        <div className="nav-links-div">
                             <Link href="/"  >
                                 <a className="navbar-links links">Home</a>
                             </Link>
