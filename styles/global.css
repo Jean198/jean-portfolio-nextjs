@@ -1,4 +1,405 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap );
+* {
+    margin: 0;
+    padding: 0;
+  }
 
+body{
+    margin: 0 auto;
+    background-color: #1F2937;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.horizontal-line{ 
+    width:40%;
+    margin: 0 auto;
+    color: lightslategray;
+}
+
+.layout{
+    margin: 0 auto;
+    max-width: 100%;
+    overflow: auto;
+    
+    
+
+}
+
+/*Navbar styles-----------------------------------------------------------*/
+.navbar{
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    
+    
+}
+
+.logo{
+   
+    text-decoration: none;
+    color:#E1A87A ;
+    transition: .5s;
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.logo:hover{
+    color:yellow;
+}
+
+.log-div{
+  
+  width:40%
+}
+
+.nav-links-div{
+    
+    width: fit-content;
+    display: flex;
+}
+
+.navbar-links{
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 2rem;
+    
+    
+}
+
+.navbar-links:hover{
+    color: yellowgreen;
+    border-top: solid yellow 1px;
+    border-bottom: solid yellow 1px;
+}
+
+@media screen and (max-width: 600px){
+    .layout{
+        width: 125vw;
+    }
+    .navbar-links{
+        float: none;
+        display: block;
+        text-align:end;
+        margin-left: 0rem;
+        
+    }
+
+    .log-div{
+        width:20%
+    }
+}
+
+
+    
+
+/* WelcomeSection----------------------------------------------------------*/
+.welcome-section{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 200px;
+    padding: 10px 20px;
+}
+.image-div{
+    display: inline-block;
+    width:250px;
+    height:250;
+    
+    
+}
+.image-div img{
+    border-radius: 3%;
+}
+
+
+
+.introduction-div{
+    display: inline-block;
+    margin-left: 5%;
+    
+}
+
+.introduction-div h2{
+    font-size: 3rem;
+}
+
+.introduction-div p{
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 2rem;
+
+}
+
+.underline{
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+@media screen and (max-width: 1500px){
+    .welcome-section{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+/*ProjectSection----------------------------------------------------------*/
+.projects-section{
+    margin-top: 100px;
+    
+
+}
+.projects-title{
+  font-size: 30px;
+  text-align: center;
+  color:yellowgreen;
+  margin-top: 100px;
+
+  
+}
+
+
+
+.projectboxes-container p{
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 2rem;
+
+}
+.projects-title h2{
+    font-size: 3rem;
+    
+}
+
+.project-box{
+    margin: 0 auto;
+    margin-top: 10px;
+    width:40%;
+    padding: 3em;
+    border: solid 1px lightslategray;
+    border-radius: 3px;
+    transition: 0.3s;
+    text-align: center;
+    
+    
+    
+}
+
+.project-box:hover{
+  opacity: .4;
+}
+
+.project-box p{
+    text-align: center;
+}
+
+
+.span a{
+   text-decoration: none;
+   color: yellowgreen
+}
+
+.log-image{
+    width: 50%;
+}
+
+@media screen and (max-width: 1500px){
+    .project-box{
+        min-width:70%;
+    }
+}
+
+/*Footer------------------------------------------------------------------*/
+.footer{
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    padding:20px 20px;
+    background-color: black;
+    
+}
+
+
+
+.footer-elem{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    
+}
+
+.footer-icons{
+    margin-left:30px;
+    text-decoration: none;
+    
+    
+}
+
+.text-2xl{
+    color:#E1A87A;
+    font-size: 20px;
+}
+
+.text-2xl:hover{
+    color:#9ACD32;
+}
+
+.footer-logo{
+    font-weight: 800;
+    color:#E1A87A;
+}
+
+
+@media screen and (max-width: 1500px){
+    .footer-elem{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+/*Contact Form-----------------------------------------------*/
+
+.inputGroup {
+    height: 50%;
+    width: 200%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  .inputLabel {
+    text-align: left;
+  }
+  .inputField {
+    height: 30px;
+  }
+
+
+  /* Form------------------------------------------------------------------------------------*/
+
+  .form-container{
+      
+      
+      margin-top: 100px;
+      
+      
+}
+
+  .form{
+      
+      border: solid 1px lightslategray;
+      margin:0 auto;
+      margin-top: 10px;
+      width:40%;
+      padding: 1em;
+    }
+
+  .input{
+      margin-top:10px;
+      width: 100%;
+  }
+
+  .message{
+      width:100%;
+  }
+  .submit{
+      width: 100%;
+      font-weight: 800;
+      background-color: #9ACD32;
+      color:black;
+      padding: .8em 2em;
+      border: 0;
+      border-radius: .2em;
+  }
+
+  .submit:hover{
+      background-color: black;
+      border: solid gray 1px;
+      color:white
+  }
+
+  @media screen and (max-width: 950px){
+    .form{
+        width: 90%;
+        
+        
+    }
+    .input{
+        width: 100%;
+    }
+    .message{
+        width: 100%;
+    }
+}
+
+
+
+
+/*-about---------------------------------------------------------*/
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    
+}
+
+.about-image-div{
+    
+    width:250px;
+    height:250;
+    
+    
+    
+    
+    
+
+}
+
+.about-image-div img{
+    
+    border-radius: 5%;
+    
+}
+
+.about-para-container{
+    max-width: 70%;
+    
+    text-align: center;
+    
+    
+}
+.about-para-container h1{
+
+    color: yellowgreen
+
+}
+.about-para-container p{
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+
+
+@media screen and (max-width: 950px){
+
+    .about-para-container{
+       max-width: 100%;
+    }
+
+}
 
 
 
