@@ -19,8 +19,8 @@ export default function Projects() {
           For this task, I have chose to use Next js as react framework and tailwind css for styling. <br />
           <span className="span"> <a href="">follow this link</a></span> to see what I have achieved so far! <br />
 
-          <div className="image-div">
-            <Image className="image" src={logo} alt="Here should be image" width={385}  height={95} />
+          <div className="logo-image">
+            <Image className="" src={logo} alt="Here should be image"  />
 
         </div>
 

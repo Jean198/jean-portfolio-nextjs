@@ -20,7 +20,7 @@ body{
 
 .layout{
     margin: 0 auto;
-    max-width: 100vw;
+    max-width: 100%;
     overflow: auto;
     
 
@@ -145,6 +145,7 @@ body{
 /*ProjectSection----------------------------------------------------------*/
 .projects-section{
     margin-top: 100px;
+    
 }
 .projects-title{
   font-size: 30px;
@@ -155,8 +156,9 @@ body{
 
 .projectboxes-container{
     text-align: center;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
+    
     display: flex;
     flex-wrap: wrap;
     overflow: fit-content;
@@ -201,9 +203,13 @@ body{
    color: yellowgreen
 }
 
+.log-image{
+    width: 50%;
+}
+
 @media screen and (max-width: 1500px){
     .project-box{
-        width:70%;
+        min-width:80%;
     }
 }
 
@@ -272,6 +278,8 @@ body{
       padding: 1em;
       
       
+      
+      
 
   }
 
@@ -309,7 +317,7 @@ body{
 
   @media screen and (max-width: 950px){
     .form{
-        width: 70%;
+        min-width: 70%;
         margin-left: 2px;
     }
     .input{
