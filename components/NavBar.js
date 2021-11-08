@@ -10,24 +10,31 @@ export default function NavBar() {
                 <div className="navbar" >
                                 
 
+                        <div className="log-div">
+                            <Link href="/"> 
+                                <a className="logo">JN</a>
                                 
+                            </Link>
+                        </div>         
 
-                        <Link href="/"> 
-                            <a className="logo">JN</a>
-                             
-                        </Link>
+                        
 
-                        <Link href="/"  >
-                            <a className="navbar-links links">Home</a>
-                        </Link>
+                        <div class="nav-links-div">
+                            <Link href="/"  >
+                                <a className="navbar-links links">Home</a>
+                            </Link>
 
-                        <Link href="/about" >
-                            <a className="navbar-links links">About Me</a>
-                        </Link>
+                            <Link href="/about" >
+                                <a className="navbar-links links">About Me</a>
+                            </Link>
 
-                        <Link href="https://jeans-journal.herokuapp.com/" className="links">
-                            <a className="navbar-links links" target="blank">Blog</a>
-                        </Link>
+                            <Link href="https://jeans-journal.herokuapp.com/" className="links">
+                                <a className="navbar-links links" target="blank">Blog</a>
+                            </Link>
+
+                        </div>
+
+                        
 
                         
                         

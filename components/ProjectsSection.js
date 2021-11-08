@@ -9,7 +9,7 @@ export default function Projects() {
       <div className="projects-title">
         <h3>Projects</h3>
       </div>
-      <div className="projectboxes-container">
+      
         <div className="project-box">
           <h2>Softrain project (React/Node js)</h2>
           <a href=""><FaGithub className="text-2xl" /></a>
@@ -61,7 +61,7 @@ export default function Projects() {
           </p>
         </div>
         
-      </div>
+      
 
 
       

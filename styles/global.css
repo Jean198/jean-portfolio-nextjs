@@ -13,7 +13,7 @@ body{
 
 
 .horizontal-line{ 
-    width:50%;
+    width:40%;
     margin: 0 auto;
     color: lightslategray;
 }
@@ -23,16 +23,19 @@ body{
     max-width: 100%;
     overflow: auto;
     
+    
 
 }
 
 /*Navbar styles-----------------------------------------------------------*/
 .navbar{
-    width: 60%;
+    width: 100%;
     overflow: hidden;
-    
+    background-color: black;
     margin: 0 auto;
-    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+    
     
 }
 
@@ -40,7 +43,6 @@ body{
    
     text-decoration: none;
     color:#E1A87A ;
-    justify-self: start;
     transition: .5s;
     font-size: 3em;
     font-weight: 900;
@@ -50,12 +52,20 @@ body{
     color:yellow;
 }
 
+.log-div{
+  
+  width:40%
+}
+
+.nav-links-div{
+    
+    width: fit-content;
+    display: flex;
+}
+
 .navbar-links{
     color: white;
     transition: 0.5s;
-    
-    float: right;
-    display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -81,6 +91,10 @@ body{
         text-align:end;
         margin-left: 0rem;
         
+    }
+
+    .log-div{
+        width:20%
     }
 }
 
@@ -146,23 +160,18 @@ body{
 .projects-section{
     margin-top: 100px;
     
+
 }
 .projects-title{
   font-size: 30px;
   text-align: center;
   color:yellowgreen;
   margin-top: 100px;
+
+  
 }
 
-.projectboxes-container{
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-    
-    display: flex;
-    flex-wrap: wrap;
-    overflow: fit-content;
-}
+
 
 .projectboxes-container p{
     font-size: 1.2rem;
@@ -178,12 +187,12 @@ body{
 .project-box{
     margin: 0 auto;
     margin-top: 10px;
-    display: inline-block;
     width:40%;
     padding: 3em;
     border: solid 1px lightslategray;
     border-radius: 3px;
     transition: 0.3s;
+    text-align: center;
     
     
     
@@ -209,7 +218,7 @@ body{
 
 @media screen and (max-width: 1500px){
     .project-box{
-        min-width:80%;
+        min-width:70%;
     }
 }
 
@@ -272,26 +281,21 @@ body{
   /* Form------------------------------------------------------------------------------------*/
 
   .form-container{
-      width: 100%;
-      margin: 0 auto;
+      
+      
       margin-top: 100px;
-      padding: 1em;
       
       
-      
-      
-
-  }
+}
 
   .form{
       
       border: solid 1px lightslategray;
-      width: 50%;
       margin:0 auto;
-      padding:10px 35px;
-      
-      
-  }
+      margin-top: 10px;
+      width:40%;
+      padding: 1em;
+    }
 
   .input{
       margin-top:10px;
@@ -302,6 +306,7 @@ body{
       width:100%;
   }
   .submit{
+      width: 100%;
       font-weight: 800;
       background-color: #E1A87A;
       color:white;
@@ -317,14 +322,15 @@ body{
 
   @media screen and (max-width: 950px){
     .form{
-        min-width: 70%;
-        margin-left: 2px;
+        width: 90%;
+        
+        
     }
     .input{
-        width: 90%;
+        width: 100%;
     }
     .message{
-        width: 90%;
+        width: 100%;
     }
 }
 
