@@ -113,11 +113,13 @@ body{
     display: inline-block;
     width:250px;
     height:250;
+    border: 1px solid white;
     
     
 }
 .image-div img{
-    border-radius: 3%;
+    
+    border: 5px solid white;
 }
 
 
@@ -309,19 +311,22 @@ body{
   .input{
       margin-top:10px;
       width: 100%;
+      padding: 0.5em 0em;
   }
 
   .message{
       width:100%;
+      
   }
   .submit{
       width: 100%;
       font-weight: 800;
       background-color: #9ACD32;
       color:black;
-      padding: .8em 2em;
+      padding: .8em .2em;
       border: 0;
       border-radius: .2em;
+      
   }
 
   .submit:hover{
@@ -361,6 +366,7 @@ body{
     
     width:250px;
     height:250;
+    border: 1px solid white;
     
     
     
@@ -371,7 +377,7 @@ body{
 
 .about-image-div img{
     
-    border-radius: 5%;
+    border-radius: 0%;
     
 }
 
@@ -394,6 +400,7 @@ body{
 
 
 @media screen and (max-width: 950px){
+    
 
     .about-para-container{
        max-width: 100%;
