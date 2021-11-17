@@ -181,8 +181,9 @@ body{
     line-height: 2rem;
 
 }
-.projects-title h2{
+.projects-title h3{
     font-size: 3rem;
+    
     
 }
 
@@ -190,14 +191,16 @@ body{
     margin: 0 auto;
     margin-top: 10px;
     width:40%;
+    min-height: 300px;
     padding: 3em;
     border: solid 1px lightslategray;
     border-radius: 3px;
     transition: 0.3s;
     text-align: center;
-    
-    
-    
+}
+
+.project-box h2{
+    margin-bottom: 30px;
 }
 
 .project-box:hover{
@@ -206,6 +209,7 @@ body{
 
 .project-box p{
     text-align: center;
+    margin-top: 30px;
 }
 
 
@@ -214,14 +218,47 @@ body{
    color: yellowgreen
 }
 
-.log-image{
-    width: 50%;
+.project-image-div{
+    
+    width: 25%;
+    margin: 0 auto;
 }
+
+.frameworks{
+    color:#EFBE00;
+}
+
+
+.project-button{
+    background-color: #1F2937;
+    border: solid 1px white;
+    padding: 0.8em 1.5em;
+    width: 20%;
+    color: yellowgreen;
+    margin: 0 auto;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.project-button:hover{
+    background-color: #496547;
+    color: yellow;
+    
+    
+}
+
+
+
 
 @media screen and (max-width: 1500px){
     .project-box{
         min-width:70%;
     }
+    .project-button{
+        width: 70%;
+    }
+
+    
 }
 
 /*Footer------------------------------------------------------------------*/

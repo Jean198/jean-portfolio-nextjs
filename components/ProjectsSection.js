@@ -1,6 +1,8 @@
 import { FaGithub } from "react-icons/fa";
 import Image from "next/image"
 import logo from "../public/images/logo-iso.png";
+import bitcoin from "../public/images/bitcoin.png"
+import weather from "../public/images/weather.png"
 
 export default function Projects() {
   return (
@@ -11,7 +13,7 @@ export default function Projects() {
       </div>
       
         <div className="project-box">
-          <h2>Softrain project (React/Node js)</h2>
+          <h2>Softrain project (<span className="frameworks"> React/Node js </span>)</h2>
           <a href=""><FaGithub className="text-2xl" /></a>
           <p>
           While working as trainee software developer at Softrain Blobs Oy, my main task is to rewrite the logitar software using React
@@ -19,26 +21,38 @@ export default function Projects() {
           For this task, I have chose to use Next js as react framework and tailwind css for styling. <br />
           <span className="span"> <a href="">follow this link</a></span> to see what I have achieved so far! <br />
 
-          <div className="logo-image">
+          <div className="project-image-div">
             <Image className="" src={logo} alt="Here should be image"  />
 
-        </div>
+          </div>
 
 
 
           </p>
         </div>
         <div className="project-box">
-        <h2>Software expert Training (JAMK)</h2>
+        <h2>Crypto-currency tracker App (<span className="frameworks"> Next Js </span>)</h2>
         <a href=""><FaGithub className="text-2xl" /></a>
           <p>
-          Since may 2021, I have attend a software expert training at JAMK. During the training, 
-          I have been taking different courses which included some projects
+            This app built with Next Js gives current overall information about crypto-currency values on the market.
+
+            <div className="project-image-div">
+              <Image className="image" src={bitcoin} alt="Here should be image"  />
+
+
+            </div>
+            
+              <span className="span"> 
+                <a href="">
+                  <button className="project-button">Go to the App</button>
+                </a>
+              </span> 
+            
 
           </p>
         </div>
         <div className="project-box">
-        <h2>Softrain project</h2>
+        <h2>Weather App (<span className="frameworks"> Node/express </span>)</h2>
         <a href=""><FaGithub className="text-2xl" /></a>
           <p>
           survived not only five centuries, but also the leap into electronic typesetting,
@@ -46,17 +60,40 @@ export default function Projects() {
            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions 
            of Lorem Ipsum.
 
+           <div className="project-image-div">
+
+              <Image className="image" src={weather} alt="Here should be image"  />
+
+           </div>
+
+           <span className="span"> 
+                <a href="">
+                  <button className="project-button">Go to the App</button>
+                </a>
+           </span> 
+
           </p>
         </div>
         <div className="project-box">
-        <h2>Softrain project</h2>
+        <h2>Lorem Ipsum</h2>
         <a href=""><FaGithub className="text-2xl" /></a>
+
 
           <p>
           survived not only five centuries, but also the leap into electronic typesetting,
            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions 
            of Lorem Ipsum.
+
+           <div>
+             
+           </div>
+
+           <span className="span"> 
+                <a href="">
+                  <button className="project-button">Go to the App</button>
+                </a>
+           </span>
 
           </p>
         </div>

@@ -28,8 +28,12 @@ export default function NavBar() {
                                 <a className="navbar-links links">About Me</a>
                             </Link>
 
-                            <Link href="https://jeans-journal.herokuapp.com/" className="links">
+                            <Link href="#" className="links">
                                 <a className="navbar-links links" target="blank">Blog</a>
+                            </Link>
+
+                            <Link href="https://jeans-journal.herokuapp.com/" className="links">
+                                <a className="navbar-links links" target="blank">Journal</a>
                             </Link>
 
                         </div>
