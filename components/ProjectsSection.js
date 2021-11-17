@@ -5,6 +5,7 @@ import bitcoin from "../public/images/bitcoin.png"
 import weather from "../public/images/weather.png"
 import currency from "../public/images/currency.png"
 import bit from "../public/images/bit.png"
+import jamk from "../public/images/jamk1.png"
 
 export default function Projects() {
   return (
@@ -34,7 +35,7 @@ export default function Projects() {
         </div>
         <div className="project-box">
         <h2>Crypto-currency tracker App (<span className="frameworks"> React/Next js </span>)</h2>
-        <a href=""><FaGithub className="text-2xl" /></a>
+        <a href="https://github.com/Jean198/crypto-currency-tracker"><FaGithub className="text-2xl" /></a>
           <p>
             This app built with Next Js gives current overall information about crypto-currency values on the market.
 
@@ -55,7 +56,7 @@ export default function Projects() {
         </div>
         <div className="project-box">
         <h2>Currency Converter (<span className="frameworks"> Node js/express </span>)</h2>
-        <a href=""><FaGithub className="text-2xl" /></a>
+        <a href="https://github.com/Jean198/currency-converter"><FaGithub className="text-2xl" /></a>
           <p>
           survived not only five centuries, but also the leap into electronic typesetting,
            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
@@ -77,7 +78,7 @@ export default function Projects() {
           </p>
         </div>
         <div className="project-box">
-        <h2>Lorem Ipsum</h2>
+        <h2>JAMK Course Projects</h2>
         <a href=""><FaGithub className="text-2xl" /></a>
 
 
@@ -87,13 +88,14 @@ export default function Projects() {
            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions 
            of Lorem Ipsum.
 
-           <div>
+           <div className="project-image-div">
+             <Image className="image" src={jamk} alt="Here should be image"  />
              
            </div>
 
            <span className="span"> 
                 <a href="">
-                  <button className="project-button">Go to the App</button>
+                  <button className="project-button">Go to the projects</button>
                 </a>
            </span>
 
