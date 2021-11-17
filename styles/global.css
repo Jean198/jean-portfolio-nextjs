@@ -204,7 +204,7 @@ body{
 }
 
 .project-box:hover{
-  opacity: .4;
+  opacity: .7;
 }
 
 .project-box p{
@@ -238,11 +238,12 @@ body{
     margin: 0 auto;
     border-radius: 3px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .project-button:hover{
-    background-color: #496547;
-    color: yellow;
+    background-color: #EFBE00;
+    color: black;
     
     
 }
