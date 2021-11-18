@@ -2,10 +2,11 @@ import { FaGithub } from "react-icons/fa";
 import Image from "next/image"
 import logo from "../public/images/logo-iso.png";
 import bitcoin from "../public/images/bitcoin.png"
-import weather from "../public/images/weather.png"
+import crypt from "../public/images/crypt.png"
 import currency from "../public/images/currency.png"
 import bit from "../public/images/bit.png"
 import jamk from "../public/images/jamk1.png"
+
 
 import Link from 'next/link'
 
@@ -42,7 +43,7 @@ export default function Projects() {
             This app built with Next Js gives current overall information about crypto-currency values on the market.
 
             <div className="project-image-div">
-              <Image className="image" src={bit} alt="Here should be image"  />
+              <Image className="image" src={crypt} alt="Here should be image"  />
 
 
             </div>
@@ -81,7 +82,7 @@ export default function Projects() {
         </div>
         <div className="project-box">
         <h2>JAMK Course Projects</h2>
-        <a href=""><FaGithub className="text-2xl" /></a>
+        <a href="https://github.com/Jean198/Ohjelmisto-osaaja-koulutus-JAMK-2021-"><FaGithub className="text-2xl" /></a>
 
 
           <p>
