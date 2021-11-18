@@ -562,6 +562,7 @@ ol {
     text-decoration: none;
     font-size: 15px;
     font-family: inherit;
+    margin-top: 20px;
   }
 
   .btn-back {
