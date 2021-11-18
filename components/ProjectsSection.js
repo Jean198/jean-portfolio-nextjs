@@ -7,6 +7,8 @@ import currency from "../public/images/currency.png"
 import bit from "../public/images/bit.png"
 import jamk from "../public/images/jamk1.png"
 
+import Link from 'next/link'
+
 export default function Projects() {
   return (
     <div className="projects-section">
@@ -94,9 +96,12 @@ export default function Projects() {
            </div>
 
            <span className="span"> 
-                <a href="">
+              <Link href="/jamk">
+                <a >
                   <button className="project-button">Go to the projects</button>
                 </a>
+              </Link>
+                
            </span>
 
           </p>

@@ -457,7 +457,7 @@ body{
 
 .blog-container{
 
-    border: solid 1px #2FFFE5 ;
+    
     width: 80%;
     min-height: 86vh;
     margin: 0 auto;
@@ -469,6 +469,36 @@ body{
     
 
 }
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.jamk-project{
+    background-color: #1F2937;
+    border: solid 1px white;
+    padding: 1em 1.5em;
+    width: 50%;
+    color: yellowgreen;
+    margin: 0 auto;
+    border-radius: 3px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+.jamk-link{
+    display: block;
+    width: 100%;
+    
+}
+
+.jamk-project:hover{
+  background-color: #538236;
+  color: white;
+}
+
+
 
 
 
