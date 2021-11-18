@@ -193,7 +193,8 @@ body{
     width:40%;
     min-height: 300px;
     padding: 3em;
-    border: solid 1px lightslategray;
+    border:solid 1px #2FFFE5;
+    /*border: solid 1px lightslategray;*/
     border-radius: 3px;
     transition: 0.3s;
     text-align: center;
@@ -265,7 +266,9 @@ body{
 /*Footer------------------------------------------------------------------*/
 .footer{
     margin: 0 auto;
-    margin-top: 100px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
     text-align: center;
     padding:20px 20px;
     background-color: black;
@@ -333,17 +336,19 @@ body{
       
       
       margin-top: 100px;
+      margin-bottom: 150px;
       
       
 }
 
   .form{
       
-      border: solid 1px lightslategray;
+      border: solid 1px #2FFFE5;
       margin:0 auto;
       margin-top: 10px;
       width:40%;
       padding: 1em;
+      border-radius: 3px;
     }
 
   .input{
@@ -398,6 +403,7 @@ body{
     flex-direction: column;
     margin-top: 100px;
     
+    
 }
 
 .about-image-div{
@@ -445,6 +451,26 @@ body{
     }
 
 }
+
+
+/* Blog------------------------------------------------------------------------------------------------------------*/
+
+.blog-container{
+
+    border: solid 1px #2FFFE5 ;
+    width: 80%;
+    min-height: 86vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+
 
 
 

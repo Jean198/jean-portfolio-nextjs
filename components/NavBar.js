@@ -28,7 +28,7 @@ export default function NavBar() {
                                 <a className="navbar-links links">About Me</a>
                             </Link>
 
-                            <Link href="#" className="links">
+                            <Link href="/blog" className="links">
                                 <a className="navbar-links links" target="blank">Blog</a>
                             </Link>
 
