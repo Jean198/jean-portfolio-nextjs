@@ -61,7 +61,7 @@ export default function Projects() {
         <h2>Currency Converter (<span className="frameworks"> Node js/express </span>)</h2>
         <a href="https://github.com/Jean198/currency-converter"><FaGithub className="text-2xl" /></a>
           <p>
-          survived not only five centuries, but also the leap into electronic typesetting,
+          Lorem not only five centuries, but also the leap into electronic typesetting,
            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions 
            of Lorem Ipsum.
