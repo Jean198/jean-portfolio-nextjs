@@ -76,7 +76,7 @@ body{
 }
 
 .navbar-links:hover{
-    color: yellowgreen;
+    color: #12FF0D;
     border-top: solid yellow 1px;
     border-bottom: solid yellow 1px;
 }
@@ -143,7 +143,7 @@ body{
 
 .underline{
     text-decoration: none;
-    color: yellowgreen;
+    color: #12FF0D;
 }
 
 @media screen and (max-width: 1500px){
@@ -167,7 +167,7 @@ body{
 .projects-title{
   font-size: 30px;
   text-align: center;
-  color:yellowgreen;
+  color:#12FF0D;
   margin-top: 100px;
 
   
@@ -193,11 +193,12 @@ body{
     width:40%;
     min-height: 300px;
     padding: 3em;
-    border:solid 1px #2FFFE5;
+    
     /*border: solid 1px lightslategray;*/
     border-radius: 3px;
     transition: 0.3s;
     text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
 }
 
 .project-box h2{
@@ -216,7 +217,7 @@ body{
 
 .span a{
    text-decoration: none;
-   color: yellowgreen
+   color: #12FF0D
 }
 
 .project-image-div{
@@ -235,7 +236,7 @@ body{
     border: solid 1px white;
     padding: 0.8em 1.5em;
     width: 20%;
-    color: yellowgreen;
+    color: #12FF0D;
     margin: 0 auto;
     border-radius: 3px;
     transition: 0.5s;
@@ -243,8 +244,8 @@ body{
 }
 
 .project-button:hover{
-    background-color: #EFBE00;
-    color: black;
+    background-color: #1DC60B;
+    color: white;
     
     
 }
@@ -297,7 +298,7 @@ body{
 }
 
 .text-2xl:hover{
-    color:#9ACD32;
+    color:#12FF0D;
 }
 
 .footer-logo{
@@ -337,18 +338,20 @@ body{
       
       margin-top: 100px;
       margin-bottom: 150px;
+
       
       
 }
 
   .form{
       
-      border: solid 1px #2FFFE5;
+      /*border: solid 1px #2FFFE5;*/
       margin:0 auto;
       margin-top: 10px;
       width:40%;
       padding: 1em;
       border-radius: 3px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
     }
 
   .input{
@@ -364,7 +367,7 @@ body{
   .submit{
       width: 100%;
       font-weight: 800;
-      background-color: #9ACD32;
+      background-color: #12FF0D;
       color:black;
       padding: .8em .2em;
       border: 0;
@@ -375,7 +378,8 @@ body{
   .submit:hover{
       background-color: black;
       border: solid gray 1px;
-      color:white
+      color:white;
+      transform: scale(0.98);
   }
 
   @media screen and (max-width: 950px){
@@ -402,6 +406,7 @@ body{
     align-items: center;
     flex-direction: column;
     margin-top: 100px;
+    margin-bottom: 100px;
     
     
 }
@@ -434,7 +439,7 @@ body{
 }
 .about-para-container h1{
 
-    color: yellowgreen
+    color: #12FF0D
 
 }
 .about-para-container p{
@@ -454,7 +459,6 @@ body{
 
 
 /* Blog------------------------------------------------------------------------------------------------------------*/
-
 .blog-container{
 
     
@@ -471,14 +475,126 @@ body{
 }
 
 
-/*-----------------------------------------------------------------------------------------------------------------*/
+.Blog-container {
+    max-width: 768px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 10px;
+    
+  }
+
+  .Single-Blog-container{
+
+    max-width: 768px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+  }
+
+.card {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    
+    
+  }
+
+  .single-card{
+
+    padding: 20px;
+    border-radius: 10px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    margin-top: 20px;
+    
+
+  }
+
+  .card-page {
+    padding: 15px 30px;
+  }
+
+
+  .posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .post-date {
+    background: #B09111;
+    margin-bottom: 20px;
+    padding: 3px 10px;
+  }
+
+  .post-title {
+    margin: 15px 0;
+    color: #12FF0D;
+  }
+
+  .post-body ul,
+ol {
+  font-size: 110%;
+  line-height: 2.3;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.post-body pre {
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 20px 0;
+  line-height: 2.3;
+}
+
+  .btn {
+    display: inline-block;
+    background: #1DC60B;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+  }
+
+  .btn-back {
+    background: #f4f4f4;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+
+
+  .btn:focus {
+    outline: none;
+  }
+  
+  .btn:hover {
+    transform: scale(0.98);
+  }
+
+
+
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+/* Jamk-----------------------------------------------------------------------------------------------------------------*/
 
 .jamk-project{
     background-color: #1F2937;
-    border: solid 1px white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
     padding: 1em 1.5em;
     width: 50%;
-    color: yellowgreen;
+    color: #12FF0D;
     margin: 0 auto;
     border-radius: 3px;
     transition: 0.5s;
@@ -487,6 +603,7 @@ body{
     font-size: 1.5em;
 }
 
+
 .jamk-link{
     display: block;
     width: 100%;
@@ -494,9 +611,16 @@ body{
 }
 
 .jamk-project:hover{
-  background-color: #538236;
+  
   color: white;
+  transform: scale(0.98);
 }
+
+@media (max-width: 500px) {
+    .posts {
+      grid-template-columns: 1fr;
+    }
+  }
 
 @media screen and (max-width: 1100px){
     .jamk-project{

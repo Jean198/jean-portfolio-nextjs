@@ -1,16 +1,60 @@
+import fs from 'fs'
+import path from 'path'
 import Layout from "../components/Layout"
-export default function blog() {
+import matter from 'gray-matter'
+import Post from "../components/Post"
+import {sortByDate} from '../utils'
+
+
+
+
+
+export default function blog({posts}) {
+  
   return (
     <Layout>
 
-        <div className="blog-container">
+        <div className="Blog-container">
 
-            <h1>On this page, I will be sharing new things that I am learning a I continue my coding journey. Stay in touch!
-            </h1>
+            
+          <div className='posts'>
+             {posts.map((post, index)=>
+              <Post post={post}/>
+             )}
+          </div>
       
         </div>
 
     </Layout>
     
   )
+}
+
+
+export async function getStaticProps(){
+  // Get files from the posts directory
+  const files= fs.readdirSync(path.join('posts'))
+  
+  // Get slug and frontmatter from posts
+
+  const posts =files.map(filename =>{
+    // Create slug
+    const slug= filename.replace('.md', '')
+
+    //Get frontmatter
+    const markdownWithMeta = fs.readFileSync(path.join('posts', filename), 'utf-8')
+    const {data: frontmatter}=matter(markdownWithMeta)
+    return{
+       slug,
+       frontmatter,
+    }
+  })
+
+  
+
+  return{
+    props:{
+      posts:posts.sort(sortByDate),
+    }
+  }
 }
