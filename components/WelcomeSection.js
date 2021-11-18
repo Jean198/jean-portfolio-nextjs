@@ -21,13 +21,9 @@ export default function WelcomeSection() {
                 </a>{"  "}
                 if you are interrested in working together.
             </p>
-            
-
-
-
-        </div> 
         
-      
+        </div> 
+    
     </div>
     
   )

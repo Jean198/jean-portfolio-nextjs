@@ -28,15 +28,8 @@ export default function about() {
 
           </div>
         
-       
-          
-
         </Layout>
-
-      
-      
-      
-      
+  
     </div>
   )
 }

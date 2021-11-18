@@ -17,12 +17,7 @@ export default function Footer() {
             <a href="" className="footer-icons"><FaGitlab className="text-2xl" /> </a>
             <a href="" className="footer-icons"> <FaLinkedin className="text-2xl" /></a>
             </p>
-            
-
-        </div>
-
-        
-      
+        </div>    
     </div>
   )
 }

@@ -498,6 +498,17 @@ body{
   color: white;
 }
 
+@media screen and (max-width: 1100px){
+    .jamk-project{
+        width: 100%;
+        font-size: 1em;
+    }
+    .jamk-link{
+        width: 100%;
+    }
+    
+}
+
 
 
 
