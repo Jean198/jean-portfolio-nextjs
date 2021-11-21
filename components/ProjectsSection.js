@@ -17,8 +17,10 @@ export default function Projects() {
       <div className="projects-title">
         <h3>Projects</h3>
       </div>
-      
-        <div className="project-box">
+
+      <div className="projectboxes-container">
+
+      <div className="project-box">
           <h2>Softrain project (<span className="frameworks"> React/Next js/Tailwind CSS </span>)</h2>
           <a href=""><FaGithub className="text-2xl" /></a>
           <p>
@@ -50,7 +52,7 @@ export default function Projects() {
             
               <span className="span"> 
                 <a href="https://crypto-currency-tracker-tau.vercel.app/">
-                  <button className="project-button">Go to the App</button>
+                  <button className="project-button">See the App</button>
                 </a>
               </span> 
             
@@ -74,7 +76,7 @@ export default function Projects() {
 
            <span className="span"> 
                 <a href="https://jn-currency-converter.herokuapp.com/">
-                  <button className="project-button">Go to the App</button>
+                  <button className="project-button">See the App</button>
                 </a>
            </span> 
 
@@ -107,6 +109,10 @@ export default function Projects() {
 
           </p>
         </div>
+
+      </div>
+      
+        
          
     </div>
   )
