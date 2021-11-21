@@ -3,7 +3,7 @@ export default function blog() {
   return (
     <Layout>
 
-        <div className="blog-container">
+        <div className="jamk-projects-container ">
 
                 <a  href="https://jean198.github.io/Daily-allowance-calculator/" className="jamk-link">
                   <button className="jamk-project">Unemployment benefits calculator( <span className="frameworks"> HTML5/CSS3/JavaScript </span>)</button>
