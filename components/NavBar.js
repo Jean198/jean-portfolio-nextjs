@@ -32,9 +32,7 @@ export default function NavBar() {
                                 <a className="navbar-links links">Blog</a>
                             </Link>
 
-                            <Link href="https://jeans-journal.herokuapp.com/" className="links">
-                                <a className="navbar-links links" target="blank">Journal</a>
-                            </Link>
+                            
 
                         </div>
                 </div>        
