@@ -7,6 +7,8 @@ import currency from "../public/images/currency.png"
 import bit from "../public/images/bit.png"
 import jamk from "../public/images/jamk1.png"
 import softrain from "../public/images/softrain.png"
+import rock from "../public/images/rock-scissors-paper.png"
+import journal from "../public/images/journal.png"
 
 
 import Link from 'next/link'
@@ -23,7 +25,7 @@ export default function Projects() {
 
       <div className="project-box">
           <h2>Softrain project (<span className="frameworks"> React/Next js/Tailwind CSS </span>)</h2>
-          <a href=""><FaGithub className="text-2xl" /></a>
+          
           <p>
           While working as trainee software developer at Softrain Blobs Oy, my main task was to rewrite the Logitar software using React
           and Node js. <br />
@@ -40,6 +42,56 @@ export default function Projects() {
 
           </p>
         </div>
+
+        <div className="project-box">
+          <h2>Kivi-Paperi-Sakset (<span className="frameworks"> Nodejs/Express/MongoDB </span>)</h2>
+          <a href="https://github.com/Jean198/rock-scissors-paper"><FaGithub className="text-2xl" /></a>
+          <p>
+
+            I built this app in attempt to solve a challenge that came with an internship position offer. I hope you enjoy this!
+          
+
+          <div className="project-image-div">
+            <Image className="" src={rock} alt="Here should be image"  />
+
+          </div>
+
+          <span className="span"> 
+                <a href="https://jean-kivi-paperi-sakset.herokuapp.com/">
+                  <button className="project-button">See the App</button>
+                </a>
+              </span> 
+
+
+
+          </p>
+        </div>
+
+        <div className="project-box">
+          <h2>Journal-App (<span className="frameworks"> Nodejs/Express/MongoDB </span>)</h2>
+          <a href="https://github.com/Jean198/Jeans-journal"><FaGithub className="text-2xl" /></a>
+          <p>
+
+            I build this app  as course's final project while studying at JAMK. This is an app someone can use
+            as a personal journal to take notes.
+          
+
+          <div className="project-image-div">
+            <Image className="" src={journal} alt="Here should be image"  />
+
+          </div>
+
+          <span className="span"> 
+                <a href="https://jeans-journal.herokuapp.com/">
+                  <button className="project-button">See the App</button>
+                </a>
+              </span> 
+
+
+
+          </p>
+        </div>
+
         <div className="project-box">
         <h2>Crypto-currency tracker App (<span className="frameworks"> React/Next js </span>)</h2>
         <a href="https://github.com/Jean198/crypto-currency-tracker"><FaGithub className="text-2xl" /></a>
