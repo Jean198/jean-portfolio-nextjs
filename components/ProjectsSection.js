@@ -29,7 +29,7 @@ export default function Projects() {
           <p>
           While working as trainee software developer at Softrain Blobs Oy, my main task was to rewrite the Logitar software using React
           and Node js. <br />
-          For this task, my tools chose were Next js as react framework and tailwind css for styling. <br />
+          For this task, my tools choice were Next js as react framework and tailwind css for styling. <br />
           For privacy reasons, I am not allowed to share my work here, but you can
           <span className="span"> <a href="https://www.softrain.fi/en/tuotteet/">follow this link</a></span> to read about Logitar software <br />
 
@@ -73,7 +73,22 @@ export default function Projects() {
           <p>
 
             I build this app  as course's final project while studying at JAMK. This is an app someone can use
-            as a personal journal to take notes.
+            as a personal journal to take notes. By building this App I learned the following: <br /> <br />
+
+              <div className="whatIlearned">
+                <ul>
+                <li>Work with Nodejs and Express Framework</li>
+                <li>Understood deeply HTTP Request Methods including GET, POST, PUT</li>
+                <li>Understood deeply ExpressJS Routing</li>
+                <li>Authentication and authorization in Expressjs</li>
+                <li>Connect to a MongoDB Database from Nodejs environment</li>
+
+                </ul>
+
+              </div>
+              
+              
+            
           
 
           <div className="project-image-div">
@@ -97,6 +112,17 @@ export default function Projects() {
         <a href="https://github.com/Jean198/crypto-currency-tracker"><FaGithub className="text-2xl" /></a>
           <p>
             This app built with Next Js gives current overall information about crypto-currency values on the market.
+            The following are the main things are learned by building this app: <br /> <br />
+
+            <div className="whatIlearned">
+                <ul>
+                <li>Working with Nextjs Framework</li>
+                <li>Understood what is an API and how to fetch data from an API</li>
+                
+
+                </ul>
+
+              </div>
 
             <div className="project-image-div">
               <Image className="image" src={crypt} alt="Here should be image"  />
@@ -118,7 +144,18 @@ export default function Projects() {
         <a href="https://github.com/Jean198/currency-converter"><FaGithub className="text-2xl" /></a>
           <p>
           This is another application I built for my own learning. Since I am using a free API,  The application has
-          only one base currency and multiple target currencies.
+          only one base currency and multiple target currencies. By building this app I:
+
+             <div className="whatIlearned">
+                <ul>
+                <li>Practiced my skills working with Nodejs and Expresjs framework</li>
+                <li>Practiced different methods to fetch data from an API</li>
+                
+
+                </ul>
+
+              </div>
+                
 
            <div className="project-image-div">
 

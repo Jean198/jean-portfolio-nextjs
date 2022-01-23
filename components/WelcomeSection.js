@@ -1,6 +1,11 @@
 import Image from "next/image"
 import jeanprofile from "../public/images/jean-profile.JPG"
 
+
+
+
+
+
 export default function WelcomeSection() {
   return (
     <div className="welcome-section">
@@ -19,7 +24,8 @@ export default function WelcomeSection() {
                 <a href="mailto:jeandedieu.niyigaba@gmail.com" className="underline">
                     Send me email
                 </a>{"  "}
-                if you are interrested in working together.
+                if you are interrested in working together. <br />
+               
             </p>
         
         </div> 

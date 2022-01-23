@@ -13,8 +13,13 @@ export default function blog({posts}) {
   
   return (
     <Layout>
+       
 
         <div className="Blog-container">
+
+        <p className='blog-intro'>
+         On this page, I have decided to start writting articles about concepts I am learning during Software Development journey. These are the articles I've written so far.
+        </p>
 
             
           <div className='posts'>

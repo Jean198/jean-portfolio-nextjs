@@ -5,6 +5,9 @@ import ProjectSection from '../components/ProjectsSection'
 import ContactForm from '../components/ContactForm'
 
 
+
+
+
 const index = () => {
     return (
         <div>
@@ -12,6 +15,8 @@ const index = () => {
                 <WelcomeSection/>
                 <ProjectSection/>
                 <ContactForm/>
+                
+                
             </Layout>
             
         </div>
