@@ -17,16 +17,13 @@ export default function WelcomeSection() {
         <div className="introduction-div">
             <h2>I'm Jean Niyigaba,</h2>
             <p>
-                A Fullstack Developer based in Lappeenranta, Finland
-                <br />I have a passion for coding and developing Web Applications.
+            I have a master’s degree in computational engineering and my passion
+            is coding and developing Web Applications. <br />  
+            I have worked as trainee software developer at Softrain Blobs Oy where I rewrote a big part of their transportation <br />
+             software with modern web technologies  including React and Nodejs. <br /><br />
+                I am looking for an internship or an entry level role to work and improve my skills.
             </p>
-            <p>
-                <a href="mailto:jeandedieu.niyigaba@gmail.com" className="underline">
-                    Send me email
-                </a>{"  "}
-                if you are interrested in working together. <br />
-               
-            </p>
+           
         
         </div> 
     

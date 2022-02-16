@@ -17,11 +17,20 @@ export default function about() {
               <p>
                 
                   Hi there! <br />
-                  I am Jean, and I am currently pursuing an intensive software development at Jyväskylän ammattikorkeakoulu (JAMK). During this training, I have been introduced to different technologies used in frond-end and back-end web development as well as database management. <br /> <br />
+                  I am Jean, a master of science in computational engineering and software developer.
+                   
+                     <br /> <br />
 
-                  Despite having a background in applied mathematics, I always felt a passion for coding and developing web applications. My web development journey started couple years ago when I started a coffee business and didn’t have money to pay for a professional to build a website for my business. So I tought I should learn by myself. I started with HTML and CSS then I started to build my website. Although the Website never went online, my passion for web development kept growing until I decided to join the software expert intensive training from may 2021. <br /> <br />
+                   My web development journey started couple years ago when I started a coffee business and didn’t have money to pay 
+                   for a professional to build a website for my business. So I tought I should learn by myself. 
+                   I started with HTML and CSS then I started to build my website. As I was building my website, my passion for coding and deloping web applications started rigth there! 
+                   <br /> Although the Website never went online, 
+                   my passion for web development kept growing until I decided to join the software expert intensive training at Jyväskylän ammattikorkeakoulu (JAMK) from may 2021. 
+                   During This training I was introduced to many software development technologies and worked on many interesting projects. At the end of the training, I knew I really wanted to become a developer but also I 
+                   realised it requires passion, patience and active learning. <br /> <br />
 
-                  As I am still in early stage of my developer journey, I am hoping to find a place to work , practice and develop my skills so that my dream to work as web developer would become true someday.
+                  As I am  in middle stage of my developer journey, I am hoping to find a place to work , 
+                  practice and develop my skills so that my dream to work as web developer would become true someday.
 
               </p>
             </div>

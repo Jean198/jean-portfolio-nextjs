@@ -28,9 +28,23 @@ export default function NavBar() {
                                 <a className="navbar-links links">About Me</a>
                             </Link>
 
+                            <a className="navbar-links links"
+                                href="/files/Jean-CV.pdf"
+                                alt="alt text"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >CV</a>
+
+                           
+
                             <Link href="/blog" className="links">
                                 <a className="navbar-links links">Blog</a>
                             </Link>
+
+                            
+
+
+
 
                             
 
