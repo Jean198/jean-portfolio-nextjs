@@ -1,5 +1,5 @@
 import Image from "next/image"
-import jeanprofile from "../public/images/jean-profile.PNG"
+import jeanprofile from "../public/images/jean-profile.png"
 
 
 
