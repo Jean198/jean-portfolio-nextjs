@@ -448,7 +448,7 @@ body{
     
     width:250px;
     height:250;
-    border: 1px solid white;
+    border-radius: 5%;
     
     
     
@@ -702,6 +702,20 @@ ol {
     padding: 0px 50px;
 }
 
+.References{
+    border: solid 1px white;
+    max-width: 86%;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0 30px;
+}
+
+.reference-name{
+    display:inline
+}
 
 
 

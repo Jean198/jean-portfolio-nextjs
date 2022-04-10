@@ -31,8 +31,8 @@ export default function Projects() {
           and Node js. <br />
           For this task, my tools choice were Next js as react framework and tailwind css for styling. <br />
           For privacy reasons, I am not allowed to share my work here, but you can
-          <span className="span"> <a href="https://www.softrain.fi/en/tuotteet/">follow this link</a></span> to read about Logitar software <br />
-
+          <span className="span"> <a href="https://www.softrain.fi/en/tuotteet/">follow this link</a></span> to read about Logitar software <br /> <br /> <br />
+          
           <div className="project-image-div">
             <Image className="" src={softrain} alt="Here should be image"  />
 
