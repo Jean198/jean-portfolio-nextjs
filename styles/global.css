@@ -723,6 +723,11 @@ ol {
   color: yellow;
 }
 
+@media (max-width: 500px) {
+    .References{
+        flex-direction: column;
+    }
+}
 
 
 
