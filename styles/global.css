@@ -703,19 +703,26 @@ ol {
 }
 
 .References{
-    border: solid 1px white;
-    max-width: 86%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    max-width: 83.5%;
     margin: 0 auto;
     margin-top: 10px;
+    
     display: flex;
-    flex-direction: column;
-    align-items: left;
-    padding: 0 30px;
+    justify-content:space-between;
+    
+    padding: 30px 30px;
 }
 
 .reference-name{
     display:inline
 }
+
+.letter-of-recommendation{
+  text-decoration: none;
+  color: yellow;
+}
+
 
 
 
