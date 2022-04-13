@@ -207,7 +207,7 @@ body{
     margin-top: 10px;
     width:80%;
     min-height: 300px;
-    padding: 3em;
+    padding: 2em;
     
     /*border: solid 1px lightslategray;*/
     border-radius: 3px;
@@ -272,7 +272,8 @@ body{
 
 @media screen and (max-width: 1500px){
     .project-box{
-        min-width:70%;
+        min-width:95%;
+        padding: 0.5em;
     }
     .project-button{
         width: 70%;
